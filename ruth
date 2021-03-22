@@ -1,0 +1,1211 @@
+*{
+	padding:0;
+	margin: 0;
+	font-family: cursive;
+	text-decoration: none;
+}
+.navbar{
+	width:100%;
+	position:fixed;
+	background-color:crimson;
+	padding:15px 0px;
+}
+.navbar .max-width{
+	width:1300px;
+	display:flex;
+	justify-content: space-between;
+	margin: auto;
+}
+.logo a{
+	color:#fff;
+	font-size: 40px;
+	font-weight: 400;   
+
+}
+.logo a span{
+	color: #000;
+}
+.Menu{
+	padding-top: 10px;
+
+}
+.Menu li{
+	display: inline-block;
+}
+.Menu li a{
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 2s;
+}
+.Menu li a:hover{
+	color:black;
+}
+.home{
+	height: 800px;
+	background: url('home2.jpg');
+	display: flex;
+
+}
+.home .max-width{
+	margin: auto 120px;
+	color: white;
+
+}
+.home .max-width .text-1{
+   font-size: 40px;
+   font-weight: 600;
+}
+.home .max-width .text-2{
+	color: crimson;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.home .max-width .text-3{
+	font-size: 50px;
+    font-weight: 700;
+
+}
+.home .max-width .text-3 span{
+   color:crimson;
+   margin-bottom:20px; 
+}
+.home .max-width a{
+	display: inline-block;
+	font-weight: 200;
+	background-color: crimson;
+	color: white;
+	font-size: 40px;
+	border-radius: 20px;
+	padding: 10px 20px;
+	margin-top: 20px; 
+}
+.home .max-width a:hover{
+	background: none;
+}
+
+.about{
+	padding: 50px 150px;
+}
+.about .title{
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+	text-decoration: underline crimson;
+}
+.about .about-content{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+}
+.about .div-left{
+	width: 45%;
+	 
+}
+.about .div-right{
+	width: 55%;
+
+}
+.about .div-left img{
+	height: 400px;
+	width: 400px;
+	border-radius: 6px;
+	object-fit: cover; 
+
+}
+.about .div-right .text{
+	font-size: 35px;
+	font-weight: 600;
+}
+.about .div-right .text span{
+	color: crimson;
+
+}
+.about .div-right p{
+	text-align: justify;
+	font-size: 20px;
+}
+.about .div-right a{
+	display: inline-block;
+	font-weight: 200;
+	background-color: crimson;
+	color:white;
+	font-size: 40px;
+	border: 2px solid crimson;
+	border-radius: 20px;
+	padding: 10px 20px;
+	margin-top: 20px;
+}
+.navbar2{
+	width: 100%;
+	background-color: blue;
+	position:fixed;
+	padding: 25px 0px; 
+}
+.home{
+	height: : 1000px;
+	background:url('home2.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	display: flex;
+}
+.text p{
+	display: inline-block;
+	text-align: justify-all;
+}
+.marina img{
+	height: 100px;
+	width: 100px;
+	border-radius: 200px;
+	object-fit: cover;
+	border: 2px solid crimson;
+}
+
+.tab1{
+	background-color: black;
+	color: white;
+	transition: color 2s;
+	font-size: 20px;
+	margin-left: 400px;
+	height: 200px;
+	width: 200px;
+	border-radius: 5px;
+}
+.tab2{
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 400px;
+	transition: color 2s;
+	height: 200px;
+	width: 200px;
+	border-radius: 5px;
+
+}
+.tab3{
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	font-weight: 200px;
+	margin-left: 400px;
+	transition: color 2s;
+	height: 200px;
+	width: 200px;
+	border-radius: 5px;
+}
+.p5{
+	text-align: left;
+	font-size: 20px;
+	margin-right: 200px; 
+}
+.p6{
+	text-align: center;
+	margin-left: 200px;
+}
+a{
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 200;
+	background-color: crimson;
+	color: white;
+	border-radius: 10px;
+	padding: 15px 30px;
+	margin-top: 20px;
+	border: 2px solid crimson;
+}
+a:hover{
+	background: none;
+	color:crimson;
+}
+.down .downcontent{
+	background-color: black;
+	color: gray;
+	font-size:30px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+.h1 h1{
+	margin-left: 3% ;
+	font-family: cooper black;
+	padding: 10px;
+}
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="PROJET.css">
+</head>
+<body bgcolor="green">
+	<table class="table1" width="80%" border="3" cellspacing="0" align="center">
+		<tr>
+			<td colspan="4">
+				<img src="accueil5.jpg" width="100%" height="200">
+			</td>
+		</tr>
+		<tr bgcolor="white" align="center">
+			<td class="td2"><a href="Projet.html">Accueil</a></td>
+			<td class="td3"><a href="transformation.html">Transformation</a></td>
+			<td class="td4"><a href="Page C.html">Contact</a></td>
+			<td class="td5"><a href="Idees.html">Idées et Débats</a></td>
+		</div>
+		</tr>
+	</table>
+	<font size="6" color="white">
+		<marquee ><p>BIENVENUE</p></marquee>
+	</font>
+	<div class="h1"><h1>Filiere Fruits et Legumes</h1></div>
+
+	<table width="100%" align="center">
+		<tr>
+			<td>
+				<img src="legume1.jpg" width="100%" height="350">
+			</td>
+			<td>
+				<font size="4" face="bahnschrisft" color="white" class="p4"><p>Les légumes frais proviennent de toutes les parties de la plante :<br>
+ <ul>
+	<li>racines (carottes, navet…),</li>
+	<li>tubercules (pommes de terre),</li>
+	<li>tiges (céleri branche),</li>
+	<li>feuille (épinard),</li>
+	<li>fleur (chou-fleur),</li>
+	<li>fruit (tomate, courgette).</li>
+	</ul>
+	<br><br>
+	Ils se caractérisent par une teneur en eau très importante (90 % en moyenne), un apport en glucides modéré : 1 a 6 % pour les parties aériennes des plantes (salades, épinards, courgettes, tomates…) et 9 % environ pour les racines (carottes, céleri…).<br>
+
+	Les légumes représentent un apport important de potassium.<br></td>
+
+	<td>
+		<font size="4" face="bahnschrisft" color="white">On y trouve également :
+	<ul>
+		<li>du calcium (surtout dans les choux),</li>
+		<li>du magnésium, du fer et du cuivre (légumes a feuilles type épinard),</li>
+		<li>du soufre (choux, oignons, ail, poireaux, navets, radis)</li>
+		<li>et de nombreuses autres matières minérales.</li>
+	</ul>
+			Les légumes sont riches en vitamines hydrosolubles :<br>
+	<ul>
+		<li>vitamine C (choux, légumes a feuilles, tomates),</li>
+		<li>provitamine A ou beta-carotène (partie colorée des plantes : légumes a feuilles vertes, carottes…) </li>
+		<li>vitamines du groupe B.</li>
+		<li>Les fibres des plantes se composent surtout de cellulose, d’hémicellulose et de matières pectiques.</li>
+	</ul>
+La pomme de terre se distingue par un apport plus important en amidon (20 %) et une teneur en vitamine C assez faible surtout après quelques mois de conservation. Elle doit être assimilée aux aliments sources d’amidons (pâtes alimentaires, riz) plutôt qu’à un légume frais.</p></font>
+			</td></font>
+		</tr>
+		<tr>
+			<td>
+				<img src="fruit5.jpg" width="100%" height="400" >
+			</td>
+			<td>
+				<font size="4" face="bahnschrisft" color="white"><p>La composition des fruits est semblable a celle des légumes.<br>
+
+Leur teneur en glucides est cependant plus élevée. Il s’agit le plus souvent de sucres<br> (de fructose mais aussi de saccharose ou de glucose et plus rarement d’amidon (banane, châtaigne). <br>L’apport en sucres est très variable. Il est peu important pour les agrumes, les groseilles,<br> les fraises, les framboises, les mures, le melon et la pastèque (5 a 10 %).<br> Les fruits les plus riches en sucres sont le raisin, la banane (18 a 20 %).<br>
+
+Un fruit apporte généralement 15 à 20 g de glucides.<br>
+
+L’intérêt principal des fruits réside dans leur richesse en vitamines.<br>
+Les plus riches en vitamine C sont les fruits acides (agrumes, groseilles, cassis, fraises…),<br> les plus riches en carotène sont les fruits colores (abricots, pêches, myrtilles, cassis…).<br>
+
+Seuls, les agrumes contiennent du calcium.<br>
+
+</p>
+			</td>
+	<td><font size="4" face="bahnschrisft" color="white">
+		Il y a peu d’oligo-éléments dans les fruits. Ils sont tous riches en potassium et pauvres en sodium.<br>
+
+Les fibres des fruits sont composées a part égale de cellulose, lignine, hémicellulose et matières
+pectiques.<br> Certains fruits sont particulièrement riches en pectines (pomme, coing, groseille).<br>
+		_Les fruits séchés (raisins, pruneaux, bananes, pommes, poires) renferment en moyenne <br>73 % de glucides assimilables. Si la dessiccation est bien conduite (par des procédés <br>industriels plutôt que grâce au soleil), ces fruits constituent une bonne source de vitamines<br> A et C. Ils ont une teneur élevée en fibres.<br>
+		_Les fruits oléagineux (noix, noisettes, amandes, cacahuètes, noix de cajou) représentent<br> un apport important de lipides (plus de 50 %) et de protéines (10 a 15 %). Les noix et<br> les noisettes sont riches en acides gras insaturés (poly ou mono).<br>
+		Les fruits oléagineux représentent par ailleurs une bonne source de minéraux (calcium,<br> magnésium, fer) et de fibres. Il s’agit d’aliments très énergétiques.<br></font>
+	</td>
+		</tr>
+
+	</table><br><br><br>
+
+</body>
+</html>
+
+
+
+
+
+
+
+.h1 h1{
+	margin-left: 3% ;
+	font-family: cooper black;
+	padding: 10px;
+}
+.p1 p{
+	margin-left: 10% ;
+	font-size: 25px;
+	font-family: bahnschrisft;
+	color: white;
+}
+.p2 p{
+	margin-left: 10% ;
+	font-size: 25px;
+	font-family: bahnschrisft;
+	color: black;
+}
+.p3 p{
+	margin-left: 10% ;
+	font-size: 25px;
+	font-family: bahnschrisft;
+	color: white;
+}
+.p4 p{
+	margin-left: 10% ;
+	font-size: 20px;
+	font-family: bahnschrisft;
+	color: white;
+
+}
+.sponsor th{
+	border: 1px solid white;
+	background: white;
+	align-content: center;
+	padding-top: 30px;
+
+}
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="PROJET.css">
+</head>
+<body bgcolor="green">
+	<table class="table1" width="80%" border="3" cellspacing="0" align="center">
+		<tr>
+			<td colspan="4">
+				<img src="accueil5.jpg" width="100%" height="200">
+			</td>
+		</tr>
+		<tr bgcolor="white" align="center">
+			<td class="td2"><a href="Projet.html">Accueil</a></td>
+			<td class="td3"><a href="transformation.html">Transformation</a></td>
+			<td class="td4"><a href="Page C.html">Contact</a></td>
+			<td class="td5"><a href="Idees.html">Idées et Débats</a></td>
+		</div>
+		</tr>
+	</table>
+	<font size="6" color="white">
+		<marquee ><p>BIENVENUE</p></marquee>
+	</font>
+      <div class="h1"><h1>Idees et debats</h1></div>
+      <br>
+      <font class="p1" size="5"><p>Espace de discussion:On s'exprime,on discute et on reagit</p></font>
+      <br>
+            <font class="p2" size="5"><p>Comment l'agriculture peut-elle repondre aux besoins d'emplois des jeunes?</p></font>
+                  <font class="p3" size="5"><p>la crise migratoire du debut des années 2000,qui accumulée en 2006 avec le depart massif de jeunes <br> des cotes ouest-Africaine, a revelé l'acuité de la question d'emploi des jeunes en Afrique <br> subs-aerienne et des risque de destabilisation qui peuvent en decouler</p></font><br>
+                  <table width="60%" align="center">
+                  	<tr>
+                  		<td>
+                  			<img src="idee1.jpg" width="50%" height="200">
+                  		</td>
+                  		<td>
+                  			<font size="5" class="p2" ><b><p>Fénetre sur l'agriculture </p></b></font>
+                  			<font size="5" class="p4"> <p>La FAO et L'IPAR organisent un moment d'echange,de reflexion et de partage sur le theme:"l'elevage pastoral, a securite alimentaire et nutritionelle au senegal:quelle contribution des nouvelles politiques et initiatives d'appui au renforcement de la resilience? <p></font>
+                  		</td>
+                  	</tr>
+                  	<tr>
+                  		<td>
+                  			<img src="idee2.jpg" width="50%" height="200">
+                  		</td>
+                  		<td>
+                  			<font size="5" class="p2" ><b><p>Réforme fonciere:comment faire? </p></b></font>
+                  			<font size="5" class="p2"> <p><b>sur quel axes devrait porter la reforme fonciere au senegal?<p></font>
+                  		</td>
+                  	</tr>
+                  </table><br><br>
+                  	<table class="sponsor" align="center" width="100%">
+  	    <tr>
+  	    	<th> <img src="asodia.jpg">
+  	    		<img src="dagana.jpg">
+  	    		<img src="ldb.jpg">
+  	    		<img src="ifpri.jpg">
+  	    		<img src="fongs.jpg">
+  	    		<img src="slouis.jpg">
+  	    	</th>
+  	    </tr>
+  </table>
+
+  </body>
+  </html>    
+      
+      
+  
+
+     
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DEVOIR N:2 HTML/CSS</title>
+		<link rel="stylesheet" type="text/css" href="Devoir2.css">
+</head>
+<body>
+	<nav class="navbar">
+		<div class="max-width">
+			<div class="logo">
+				<a>Portfolio<span>LO</span></a>
+			
+			</div>
+			<ul class="Menu">
+				<li><a href="">Accueil</a></li>
+				<li><a href="">A propos</a></li>
+				<li><a href="">Service</a></li>
+			    <li><a href="">Competences</a></li>
+			    <li><a href="">Dirigeant</a></li>
+				
+			</ul>
+			
+		</div>
+		
+	</nav>
+	<section class="home">
+		<div class="max-width">
+			<div class="home-content">
+				<br>
+				<br>
+				<div class="text-1">Bonjour je m'appelle</div>
+				<br>
+				<div class="text-2">Marina AKOUALA</div>
+				<br>
+				<div class="text-3">Je suis etudiante en <span>informatique</span></div>
+				<br>
+				<a href="#" class="button-one">Click Ici</a>
+				
+			</div>
+		</div>
+		
+	</section>
+	<section class="about">
+		<div class="max-width">
+			<h2 class="title">A propos De Moi</h2>
+			<div class="about-content">
+				<div class="div-left">
+					<img src="IMG_1026.JPG">
+				</div>	
+				<div class="div-right">
+					<div class="text">
+						Je suis Marina Akouala<span>Etudiante</span>
+					</div>
+					<p><p> En L1 IAGE(Informatique Appliquee a la gestion) a ISI (Institut Superieur D'Informatique)qui est situe a Sahm et si j'ai choisi de faire cette filiere c'est parce que j'ai toujours voulu etre informaticienne.</p>
+						<a href="">Download</a>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</section>
+
+	</section>
+	    <br>
+	    <h1><center><strong><u><b>My Teams</b></u></strong></center></h1>
+	    <p><center>What is now</center></p>
+	    <center>
+	    	<br>
+	    	<br>
+	    	<p><hr width="100" color="crimson"></p>
+	    </center>
+	    <br><br>
+	    <div style="float: left;width: 202px;height: 182px">
+	    	<table class="tab1" border="0" cellpadding="5" cellspacing="0" width="100" height="100">
+	    		<tr>
+	    			<th class="marina">
+	    				<img src="IMG_1857.jpg"><br><p>Marina</p><br><p>Informaticienne</p>
+	    				<p class="th1"></p>
+	    			<p class="th1">A ISI (Institut Superieure D'Informatique)</p>
+	    			<p class="th1">de DAKAR</p>
+	    			
+	    			
+	    				
+	    			</th>
+	    		</tr>
+	    		
+	    	</table>
+
+	    	
+	    </div>
+	    <div style="float: left;width: 202px;height: 182">
+	    	<table class="tab2" border="0" cellpadding="5" cellspacing="0" width="100" height="100">
+	    		<tr>
+	    			<th class="marina">
+	    				<img src="VYMM2663.jpg" ><br><p>Moon</p><br><p>La Sécrétaire</p>
+	    				<p class="th1">Elle est secretaire dans</p>
+	    				<p class="th1">une societe d'informatique</p>
+	    			
+	    			<p class="th1"></p>
+	    			
+	    				
+	    			</th>
+	    		</tr>
+	    		
+	    	</table>
+	    	
+	    </div>
+	    <div style="float: left;width: 202px;height: 182">
+	    	<table class="tab3" border="0" cellpadding="5" cellspacing="0" width="100" height="100">
+	    		<th class="marina">
+	    			<img src="XBWP4930.jpg"><br><p>Maman</p><br><p>La Comptable</p>
+	    			<p class="th1">Elle est comptable</p>
+	    			<p class="th1">a l'entreprise YAKAR</p>
+	    			
+	    		</th> 		
+	    	</table>
+
+	    	
+	    </div>
+	</div>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<section>
+	<div style="float: left;width: 500;height: 200px;">
+			<h1>Get in Touch</h1>
+			<br>
+			 En L1 IAGE(Informatique Appliquee a la gestion) a ISI (Institut Superieur D'Informatique)<br>qui est situe a Sahm. <br>et si j'ai choisi de faire cette filiere c'est parce que j'ai toujours voulu etre informaticienne.</p>
+			 <br>
+			 <br>
+			 <br>
+			<p class="p5"></p>
+			<ul>
+				<li>NAME<i class="fa fa-address-book-o" aria-hidden="true"></i></li>
+				<p>Marina Akouala</p><br>
+				<li>ADRESSE</li>
+				<p>liberter6 extension</p><br>
+				<li>EMAIL</li>
+				<p>@MaGMAIL.com</p>
+
+			</ul>
+			
+		</div>
+		<br>
+		<br>
+		<div class="p6" style="float: left;width: 500px;height: 200px;">
+			<form>
+				<p><strong><u>Message Me</u></strong></p>
+		        <input type="text" name="Nom" placeholder="Name" name="NOM"><br>
+		        <br>
+		        <input type="subject"placeholder="subject" name="mps"><br>
+		        <br>
+		        <textarea rows="6" cols="30" name="DESCRIBE"placeholder="DESCRIBE"></textarea>
+		        <br>
+
+			</form>
+			<a href="">Send Message</a>
+		</div><br>
+		<form class="p6">
+			<input type="Email"placeholder="Email" name="mps">
+		</form>
+	</section>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<br><br><br><br>
+	<section class="down">
+		<div class="downcontent">
+	<p class="pied"><center><span>Created By Marina AKOUALA</span>	@2021 Au Right Reserved</center></p>
+      </div>
+	</section>
+</body>
+	<script src="https://use.fontawesome.com/f2caf80e01.js"></script>
+</html>
+
+</body>
+<footer>
+	 
+</footer>
+</html>
+<?
+include_once('index.html');
+?>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> PAGE CONTAC </title>
+	<link rel="stylesheet"  href="style.css">
+	<link rel="stylesheet" type="text/css" href="projet.css">
+</head>
+<body bgcolor="green">
+	<table class="table1" width="80%" border="1" cellspacing="0" align="center">
+		<tr>
+			<td colspan="4">
+				<img src="accueil5.jpg" width="100%" height="200">
+			</td>
+		</tr>
+		<tr bgcolor="white" align="center">
+			<td class="td2"><a href="PROJET.html">Accueil</a></td>
+			<td class="td3"><a href="tranformation.html">Transformation</a></td>
+			<td class="td4"><a href="Page C.html">Contact</a></td>
+			<td class="td5"><a href="Idees.html">Idées et Débats</a></td>
+		</div>
+		</tr>
+	</table>
+	<font size="6" color="white">
+		<marquee ><p>BIENVENUE</p></marquee>
+	</font>
+<div class="contact" align="center">
+<br> <br> <br> <br> <br> 
+	 <strong><center>VEILLEZ-NOUS CONTACTER</center></strong><br> <br> <br> 
+	
+	 <table width="80%" align="center">
+	<tr>
+		<th>NOM:</th>
+		<td><br><input type="text" name="name"placeholder=name></td>
+		</tr>
+		<tr>
+		<th><br>TELEPHONE :</th>
+		<td>
+		<br><input type="text" name="number">
+		</td>
+		</tr>
+		<tr>
+		<th><br>NOM D'UTILISATEUR :</th>
+		<td>
+		<br><input type="text" name="nomut">
+		</td>
+		</tr>
+		<tr>	
+		<th><br>MOT DE PASSE :</th>
+		<td><br><input type="password" name="mdp"></td>
+      </tr>
+		</table>
+	 <br><br><br>
+	<div class="sociaux">
+		<a href="https://www.facebook.com"><img src="face.jpg"></a>
+		<a href="https://www.watshap.com"><img src="wt.jpg"></a>
+		<a href="https://www.instagram.com"><img src="ins.jpg"></a>
+			<a href="https://www.snapchat.com"><img src="snp.jpg"></a>
+		<a href="https://www.twitter.com"><img src="tw.jpg"></a><br><br><br><br>
+		
+	</div> 	
+	<strong>Copyright@2020 AGROALIMENTAIRE Tous droits reservés </strong>
+
+</div>
+</body>
+</html>
+.para1 p{
+	margin-left: 10% ;
+	font-size: 20px;
+	font-family: bahnschrisft;
+	color: white;
+}
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="PROJET.css">
+</head>
+<body bgcolor="green">
+	<table class="table1" width="80%" border="3" cellspacing="0" align="center">
+		<tr>
+			<td colspan="4">
+				<img src="accueil5.jpg" width="100%" height="200">
+			</td>
+		</tr>
+		<tr bgcolor="white" align="center">
+			<td class="td2"><a href="Projet.html">Accueil</a></td>
+			<td class="td3"><a href="transformation.html">Transformation</a></td>
+			<td class="td4"><a href="Page C.html">Contact</a></td>
+			<td class="td5"><a href="Idees.html">Idées et Débats</a></td>
+		</div>
+		</tr>
+	</table>
+	<font size="6" color="white">
+		<marquee ><p>BIENVENUE</p></marquee>
+	</font>
+	<h2>FILIERE POISSON</h2>
+		<p>Les poissons sont des animaux vertébrés aquatiques à branchies, pourvus de nageoires et dont le corps est le plus souvent couvert d'écailles. On les trouve abondamment aussi bien dans les eaux douces que dans les mers : on trouve des espèces depuis les sources de montagnes (omble de fontaine, goujon) jusqu'au plus profond des océans (grandgousier, poisson-ogre). Leur répartition est toutefois très inégale : 50 % des poissons vivraient dans 17 % de la surface des océans1 (qui sont souvent aussi les plus surexploités).</p>
+	<br>
+	<p align="center">
+		<img src="poisson1.jpg" width="30%" height="350">
+<img src="poisson2.jpg" width="30%" height="350">
+<img src="poisson.jpg" width="30%" height="350">
+<img src="poisson4.jpg" width="30%" height="350">
+<img src="poisson5.jpg" width="30%" height="350">
+<img src="poisson04.png" width="30%" height="350">
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+strong {
+	padding-left: 20px;
+	float: left;
+}
+
+.menu a{
+	border:1px solid white;
+	margin-right: 2%;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: broadway;
+	float: right;
+	background: white;
+}
+.paragraphe1 p{
+	font-family: 
+	border :2px white;
+	padding-top: 5px;
+	padding-bottom: 10px;
+
+}
+
+.img {
+	background: white;
+	width: 100%;
+	padding: 30px;
+	text-align: center;
+}
+.h1 h1{
+	margin-left: 3% ;
+	font-family: cooper black;
+	padding: 10px;
+}
+.para1 p{
+	margin-left: 10% ;
+	font-size: 20px;
+	font-family: bahnschrisft;
+	color: white;
+}
+.th1 img{
+	margin-right: 80px;
+
+}
+.th2 img{
+	margin-left: 60%;
+
+}
+.th3 img{
+	margin-left: 180px;
+	margin-right: 30px;
+}
+.th4 img{
+	margin-right: 20px;
+	margin-left: 0px;
+}
+
+.td1 a{
+	padding: 20px;
+	padding-top: 15px;
+}
+td{
+	padding-bottom: 20px;
+	padding-top: 20px
+}
+.sponsor th{
+	border: 1px solid white;
+	background: white;
+	align-content: center;
+	padding-top: 30px;
+
+}
+.table1 img{
+	padding: 0;
+}
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="PROJET.css">
+</head>
+<body bgcolor="green">
+	<table class="table1" width="80%" border="3" cellspacing="0" align="center">
+		<tr>
+			<td colspan="4">
+				<img src="accueil5.jpg" width="100%" height="200">
+			</td>
+		</tr>
+		<tr bgcolor="white" align="center">
+			<td class="td2"><a href="Projet.html">Accueil</a></td>
+			<td class="td3"><a href="transformation.html">Transformation</a></td>
+			<td class="td4"><a href="Page C.html">Contact</a></td>
+			<td class="td5"><a href="Idees.html">Idées et Débats</a></td>
+		</div>
+		</tr>
+	</table>
+	<font size="6" color="white">
+		<marquee ><p>BIENVENUE</p></marquee>
+	</font>
+	<div class="paragraphe1">
+		<div class="h1"><h1>L’industrie agroalimentaire du Sénégal, enjeux et défis majeurs</h1></div>
+		<div class="para1">
+			<p>
+L’industrie agroalimentaire (IAA) est un secteur qui contribue au développement économique du pays.<br>
+En effet, elle concentre plus du tiers (35,46%) de la production industrielle nationale en 2009<br> et est créatrice d’emplois et de la valeur ajoutée (38,5% de la valeur ajoutée globale du secteur <br>industriel). En outre, ses interdépendances vis-à-vis de l’agriculture, de la pêche et de l’élevage et la<br> densification des réseaux de distribution aussi bien dans les zones urbaines que dans la campagne font <br>
+dudit secteur un véritable pourvoyeur de ressources financières pour une frange importante de la population<br> et constituent par conséquent un moyen de lutte contre la pauvreté. 
+			</p>
+		</div>
+		<p align="center">
+				<img src="accueil.jpg" width="30%" height="350">
+				<img src="accueil4.jpg" width="30%" height="350">
+				<img src="accueil6.jpg" width="30%" height="350"><br>
+				<img src="accueil2.jpg" width="30%" height="350">
+				<img src="accueil3.jpg" width="30%" height="350">	
+				<img src="accueil5.jpg" width="30%" height="350">
+		</p>
+	</div><br><br><br><br><br><br>
+	<table width="80%" align="center" >
+	    <tr>
+			<th align="center">Filiere Fruits et <br>Legumes</th>
+			<th  class="cereal">Filiere Cereale</th>
+			<th  class="poisson"><p>Filiere Poisson</p></th>
+			<th >Filiere Viande</th>
+		</tr>
+		<tr> 
+			<th class="th1"><a href="fruit.html"><img src="fruits.jpg" width="80%" height="200"></a></th>
+			<th class="th2"><a href="cereale.html"><img src="cereales.jpg" width="100%" height="200"></a></th>
+			<th class="th3"><a href="poisson.html"><img src="poisson.jpg" width="40%" height="200"></a></th>
+			<th class="th4"><a href="viande.html"><img src="viande1.jpg" width="120%" height="200"></a></th>
+		</tr>
+	</table><br><br><br><br><br>
+	<table class="sponsor" align="center" width="100%">
+		<tr>
+			<th>
+				<img src="asodia.jpg">
+				<img src="dagana.jpg">
+				<img src="ldb.jpg">
+				<img src="ifpri.jpg">
+				<img src="fongs.jpg">
+				<img src="slouis.jpg">
+			</th>
+		</tr>
+	</table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+.contact{
+	width: 700px;
+	height: 900px;
+	background-color: green; 
+	text-align: left;
+
+}
+.sociaux a{
+  font-size: 30px;
+  padding-left:30px 
+}
+.sociaux img{
+    width: 30px;
+	margin-top: 50px;
+	margin-right: 50px;
+
+}
+
+
+
+p{
+	font-size: 20px;
+	font-family: bahnschrisft;
+	color: white;
+	text-align: center;
+}
+.font1 li{
+	font-size: 20px;
+	font-family: bahnschrisft;
+	color: white;
+	padding-left: 30px;
+}
+.font2 p{
+	font-size: 20px;
+}
+.bienvenue p{
+	font-size: 30px;
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AGRO-ALIMENTAIRE</title>
+  <link rel="stylesheet" type="text/css" href="projet.css">
+  <link rel="stylesheet" type="text/css" href="trans.css">
+</head>
+<body bgcolor="green">
+  <table class="table1" width="80%" border="1" cellspacing="0" align="center">
+    <tr>
+      <td colspan="4">
+        <img src="accueil5.jpg" width="100%" height="200">
+      </td>
+    </tr>
+    <tr bgcolor="white" align="center">
+      <td class="td2"><a href="PROJET.html">Accueil</a></td>
+      <td class="td3"><a href="transformation.html">Transformation</a></td>
+      <td class="td4"><a href="Page C.html">Contact</a></td>
+      <td class="td5"><a href="Idees.html">Idées et Débats</a></td>
+    </div>
+    </tr>
+  </table><br><br><br>
+  <font color="white" class="bienvenue">
+    <marquee ><p>BIENVENUE</p></marquee>
+  </font>
+
+  <p align="center">
+        <img src="trans1.jpg" width="30%" height="350">
+        <img src="trans2.jpg" width="30%" height="350">
+        <img src="transformation.jpg" width="30%" height="350"><br>
+  </p>
+  <p>
+           
+      <font size="6" ><b><u>1. Objectif</u></b><br></font>
+      L’objectif de cette fiche est de mettre à la disposition des techniciens et techniciennes des notions complémentaires <br>sur quelques concepts de base nécessaires liés à la transformation des produits agricoles alimentaires.<br>
+      A la fin de la formation, les participants/participantes maitrisent les concepts clés en matière de transformation des produits agricoles alimentaires. <br>Cette Fiche a été validée par toutes les composantes nationales du monde agricole.<br>
+      <b><u> Publique cible</u></b><br>
+      Ce module s’adresse aux formateurs et formatrices seniors, aux agents de vulgarisation et de conseils agricoles <br>des Services d’Appui Entrepreneurial (animateurs/trices) et aux transformateurs/trices.<br><br><br>
+
+      <font size="6" ><b><u>2. Méthode pédagogique</u></b> : Approches, outils, matériels</font><br>
+
+
+      <font ><u>Approche :</u></font> La méthode sera participative et interactive avec l’utilisation des illustrations.<br>La phase pratique consistera à se rendre dans une unité de transformation de produits agricoles alimentaires <br>pour suivre tout le processus de fabrication du produit fini ou semi fini.<br>
+      <font ><u>Outils :</u></font>Salle de formation, vidéo projecteur, papier kraft, marqueurs (pour la phase théorique);<br> unité de transformation, matière première… (Pour la phase pratique).<br>
+      <font ><u>Matériels de formation :</u></font> fiches  techniques, papier kraft ; feutres ; matière première et équipement de transformation.<br><br><br>
+
+      <font size="6" ><b><u>3. Définition des concepts clés en matière de transformation</u></b></font><br>
+    <font color="white" class="font1">
+      <ul>
+        <li>Transformation des produits agricoles est toute action mécanique, physique et/ou chimique que subit un organisme biologique d’origine végétale ou animale pour obtenir une forme autre que celle d’origine.
+        </li>
+        <br>
+        <li>Technologies de transformation est l’ensemble des opérations, du matériel et des équipements utilisés au cours du processus de fabrication d’un produit.
+        </li>
+          <br>
+        <li>Produit agricole alimentaire est un organisme biologique d’origine végétale ou animale issu d’une production agro-sylvo-pastorale destiné à l’alimentation.
+        </li>
+        <br>
+        <li>Diagramme de fabrication est le schéma de l’ensemble des opérations et des intrants alimentaires utilisés pour la transformation d’une matière première en un produit fini ou semi fini donné.
+        </li><br>
+        <li>Produit fini: produit qui après transformation est prêt à être distribué.</li><br>
+        <li>Produit semi fini : produit qui a déjà été partiellement élaboré mais qui doit être retravaillé ou  conditionné avant d’être mis sur le marché.
+        </li><br>
+        <li>Sous-produits ou dérivés (à définir) : Produit secondaire obtenue au cours de la fabrication du produit principal.
+        </li><br>
+        <li>L’hygiène alimentaire : C’est l’ensemble des moyens de maîtrise visant à assurer la santé du Consommateur.
+        </li>
+      </ul>
+    </font>
+      <br><br><br>
+
+      <font size="6" >
+        <p align="center"><b><u>4. Informations générales sur la transformation des produits agricoles alimentaires</u></b><br></font>
+        </p>
+      <font color="white">
+        <p align="center">
+          Lors des formations des apprenants/tes sur ces technologies de transformation, le formateur/trice doit aborder les aspects suivants :<br>
+          les emballages à utiliser afin de choisir des types d’emballages qui n’ont pas un impact négatif sur l’environnement.<br>Le coût et la disponibilité de l’emballage en lien avec le prix de revient et de vente des produits finis.<br>
+          - Le prix et les sources d’approvisionnement des principaux équipements utilisés  pour la transformation  des produits agricoles.<br>
+          - L’attention des apprenants sur la nécessité de faire de temps en temps  les analyses en vue de  s’assurer du maintien de la qualité de leurs produits.
+        </p>
+      </font>
+      <br><br><br>
+</body>
+</html>
+
+
+.h1 h1{
+	margin-left: 3% ;
+	font-family: cooper black;
+	padding: 10px;
+}
+
+.p1 p{
+	margin-left: 10% ;
+	font-size: 20px;
+	font-family: bahnschrisft;
+	color: white;
+}
+.sponsor th{
+	border: 1px solid white;
+	background: white;
+	align-content: center;
+	padding-top: 30px;
+
+}
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="PROJET.css">
+</head>
+<body bgcolor="green">
+	<table class="table1" width="80%" border="3" cellspacing="0" align="center">
+		<tr>
+			<td colspan="4">
+				<img src="accueil5.jpg" width="100%" height="200">
+			</td>
+		</tr>
+		<tr bgcolor="white" align="center">
+			<td class="td2"><a href="Projet.html">Accueil</a></td>
+			<td class="td3"><a href="transformation.html">Transformation</a></td>
+			<td class="td4"><a href="Page C.html">Contact</a></td>
+			<td class="td5"><a href="Idees.html">Idées et Débats</a></td>
+		</div>
+		</tr>
+	</table>
+	<font size="6" color="white">
+		<marquee ><p>BIENVENUE</p></marquee>
+	</font>
+	<div class="h1"><h1>Filiere Viande</h1></div>
+	<div class="p1">
+		<p>L'industrie de la viande désigne l'ensemble des activités industrielles agroalimentaire spécialisées dans la transformation des animaux d'élevage dévolus à l'alimentation humaine. Cela va de l'abattage-découpe-stockage des animaux devenant carcasses bouchères à la viande prête à cuisiner et autres plats cuisinés à base de viande. Il existe differentes facons de transformer et de conserver la viande:<br><br>
+		
+	
+
+	* Transformation et conservation de la viande de boucherie ː les abattoirs, la production de viandes de boucherie, fraîches, congelées ou surgelées, soit en en carcasses soit en morceaux.<br><br>
+
+	* transformation et conservation de la viande de volaille ː les abattoirs ; la préparation et l'emballage de volailles ; la production de viandes de volailles, entières ou en portions individuelles, fraîches, congelées ou surgelées ; l'extraction de graisses de volailles comestibles ; la production de plumes, de peaux et de duvets, bruts et apprêtés ; la préparation des abats.<br><br>
+
+	* préparation de produits à base de viande ː la fabrication industrielle de produits à base de viandes ou d'abats (pièces salées, fumées, séchées, cuites, etc.) ; la fabrication industrielle de charcuteries telles que pâtés, rillettes, saucisses, salamis, boudins, andouillettes, cervelas, mortadelles, galantines, jambons cuits ; la préparation de foies gras ; la production de farines et poudres de viandes comestibles ou impropres à l'alimentation humaine.</p>
+</div>
+<p align="center">
+	<img src="viande1.jpg" width="30%" height="350">
+	<img src="viande2.jpg" width="30%" height="350">
+	<img src="viande.jpg" width="30%" height="350">
+	<img src="viande4.jpg" width="30%" height="350">
+	<img src="viande3.jpg" width="30%" height="350">
+	<img src="viande5.jpg" width="30%" height="350">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cereal th{
+	text-align: center;
+	color: white;
+	font-family: bahnschrisft;
+	font-size: 20px;
+}
+div{
+	text-align: center;
+	font-family: bahnschrisft;
+	font-size: 20px;
+	color: white;
+}
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="PROJET.css">
+</head>
+<body bgcolor="green">
+	<table class="table1" width="80%" border="3" cellspacing="0" align="center">
+		<tr>
+			<td colspan="4">
+				<img src="accueil5.jpg" width="100%" height="200">
+			</td>
+		</tr>
+		<tr bgcolor="white" align="center">
+			<td class="td2"><a href="Projet.html">Accueil</a></td>
+			<td class="td3"><a href="transformation.html">Transformation</a></td>
+			<td class="td4"><a href="Page C.html">Contact</a></td>
+			<td class="td5"><a href="Idees.html">Idées et Débats</a></td>
+		</div>
+		</tr>
+	</table>
+	<font size="6" color="white">
+		<marquee ><p>BIENVENUE</p></marquee>
+	</font>
+	<h2>FILIERE CEREALE</h2>
+	<p>Bien vivre c'est l'obtention de vitamine, l'avoir c'est bien mangé et bien mangé correspond a la qualite de l'alimentation. Ce pendant, ce site a pour but de mettre a votre disposition des aliments cereales corespondant a votre sante. Ces produits cerals viennent des differentes regions du senegal cultives a une duree favorable pour la consommation et pour l'amelioration de votre sante certains ont ete transformes avec le respect des hygienes de vies avec l'accompagnement des nutritionistes.Nos produits ssont bien ete certifie et agree par l'Etat du SENEGAL.L’agriculture sénégalaise a connu des changements importants durant ces cinquante dernières années. D’une agriculture à l’origine vivrière et familiale, elle a été fortement orientée sur les cultures de rente (arachide et coton).L’arachide a été ainsi pendant plusieurs décennies le moteur de l’économie sénégalaise (Beaujeu et al. 2009). La filière arachide traverse une crise importante avec une baisse de la production. La production augmente, en revanche, dans les filières céréales (mil, riz, maïs), fruits et légumes, et manioc, répondant à la demande locale croissante.
+
+Avec le développement de l’irrigation, notamment dans la vallée du Fleuve Sénégal, les performances de la filière riz se sont améliorées, même si des disparités sont notées en fonction notamment de la maîtrise de l’eau, des pratiques culturales, de la qualité de la transformation. La production de mil, culture pluviale traditionnelle, qui avait fortement régressé, est également en hausse dans un objectif d’autoconsommation et de commercialisation. Les micro et petites entreprises jouent un rôle central de valorisation de la production nationale à destination des marchés de consommation urbains.</p>
+
+<table class="cereal">
+	<tr>
+		<th colspan="2">
+			<img src="cereales4.jpg" width="40%" height="200"><img src="cereales1.png" width="40%" height="200"><p>Le mil est une céréale de la famille des poacées, tribu des panicées. Egalement appelé mil perlé, petit mil, mil à chandelle (Pennisetum glaucum (L), R. B2), il existe sous plusieurs formes dont la plus cultivée est le mil pénicillaire. Le terme « mil » regroupe un ensemble de graminées alimentaires qui ont pour caractéristiques communes la petitesse de leurs graines. Ces céréales sont surtout cultivées sur les terres marginales dans les régions sèches des zones tempérées, subtropicales et tropicales.</p>
+		</th>
+		<th colspan="2">
+			<img src="cereales2.jpg" width="91%"><p>
+			Exclusivement cultivé par les familles de la vallée, le riz Terral s’engage pour une agriculture inclusive, en favorisant la consommation de ce que nos familles produisent.
+			Un riz réputé pour sa qualité compte tenu de sa propreté, son goût, sa blancheur et son triage. Il garantit ainsi à ses consommateurs une bonne digestion et une cuisson facile.
+			Le riz Terral est produit par la Société sénégalaise des filières alimentaires. La SFA participe 	ainsi à la valorisation de la production locale, en s’appuyant sur les ressources et compétences du pays.</p>
+		</th><br>
+		<th><img src="mais.jpg" height="184"><img src="mais1.jpg"><p>Hybrides de maïs adaptés aux régions chaudes
+		Notre excellente connaissance des conditions de culture d'une part, et la conduite d'essais spécifiques d'autres part, nous permettent de vendre des variétés de maïs parfaitement adaptées aux impératifs techniques et économiques des producteurs.
+		•	Pour le maïs grain, le choix de la variété dépend à la fois des besoins hydriques de la plante (liés au rendement potentiel) et de la disponibilité en eau. Nous préconisons l'emploi des variétés suivantes :
+		- variétés demi-tardives Panama et Odeon (également adaptées à la production d'ensilage),
+		- variété tardive Net,
+		- variétés très tardives Nikaïa et Mas 61, toutes deux également adaptées à la production de fourrage.
+		•	En ce qui concerne le maïs fourrage, le choix variétal doit également tenir compte de la qualité de l'aliment final. Si la production de lait revêt une importance primordiale dans le système d'exploitation, nous vous proposerons des variétés productives pourvues de valeur nutritionnelles exceptionnelles.
+		- variété demi-tardive Odeon,
+		- variétés très tardives Nikaïa et Giubileo,
+		- variétés extrèmement tardives Calcio ou Mas 74.G.</p>
+		</th>
+	</tr>
+</table>
+
+
+<br></p>
+
+
+
+
+
+
+[1006/042512.921:ERROR:crash_report_database_win.cc(430)] unexpected header
